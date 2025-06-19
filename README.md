@@ -1,26 +1,18 @@
-# 🌍 Magic Climate Intelligence
+🌍 Magic Climate Intelligence
+Magic Climate Intelligence is a visually rich, interactive web application designed to visualize environmental insights using dynamic dashboards, videos, animations, and customizable brand kits.
 
-**Magic Climate Intelligence** is a visually rich, interactive web application designed to visualize environmental insights using dynamic dashboards, videos, animations, and customizable brand kits.
-
----
-
-## 🚀 Features
-
-- 🌗 Dark/Light Theme Toggle  
-- 📊 Real-time Dashboard with Chart.js  
-- 🎞️ Scroll & Parallax Video Effects  
-- 🎨 Dynamic Brand Kit Styling  
-- 📥 Downloadable Report  
-- 🌊 Ripple Effect Animation  
-- 🧭 Smooth Scroll Navigation  
-- 💬 Website Description Alert  
-- 📩 Contact Form  
-- ⏳ Animated Video Loader  
-
----
-
-## 📁 Folder Structure
-
+🚀 Features
+🌗 Dark/Light Theme Toggle
+📊 Real-time Dashboard with Chart.js
+🎞️ Scroll & Parallax Video Effects
+🎨 Dynamic Brand Kit Styling
+📥 Downloadable Report
+🌊 Ripple Effect Animation
+🧭 Smooth Scroll Navigation
+💬 Website Description Alert
+📩 Contact Form
+⏳ Animated Video Loader
+📁 Folder Structure
 Magic-Climate-Intelligence/
 ├── index.html # Main HTML file
 ├── style.css # CSS styles
@@ -40,13 +32,8 @@ yaml
 Copy
 Edit
 
----
-
-## ⚙️ How to Run Locally
-
-### 1. Clone the repository
-
-```bash
+⚙️ How to Run Locally
+1. Clone the repository
 git clone https://github.com/gourangagogoi/magic-climate.git
 cd magic-climate-intelligence
 2. Open in VS Code (or any code editor)
