@@ -47,7 +47,7 @@ Edit
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/gourangagogoi/magic-climate-intelligence.git
+git clone https://github.com/gourangagogoi/magic-climate.git
 cd magic-climate-intelligence
 2. Open in VS Code (or any code editor)
 bash
