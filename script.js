@@ -1,4 +1,3 @@
-// script.js
 window.onload = () => document.getElementById("loader").style.display = "none";
 document.getElementById("themeToggle").onclick = toggleDarkMode;
 
@@ -18,11 +17,16 @@ function scrollToSection(id) {
 }
 
 function downloadReport() {
-  const blob = new Blob(["Climate Report - Emissions Stable"], { type: "text/plain" });
+  const co2 = document.getElementById("co2").innerText;
+  const efficiency = document.getElementById("efficiency").innerText;
+  const green = document.getElementById("green").innerText;
+
+  const reportText = `Climate Report:\n${co2}\n${efficiency}\n${green}`;
+  const blob = new Blob([reportText], { type: "text/plain" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = "report.txt";
+  a.download = "climate_report.txt";
   a.click();
   URL.revokeObjectURL(url);
 }

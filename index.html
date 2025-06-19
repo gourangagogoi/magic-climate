@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,7 +42,7 @@
   <section id="features">
     <h2>Interactive Features</h2>
     <div class="grid">
-      <button class="card" onclick="alert('Simulating emissions…')"><i class="fas fa-bolt"></i> Emissions</button>
+      <button class="card" onclick="scrollToSection('dashboard')"><i class="fas fa-bolt"></i> Emissions</button>
       <button class="card" onclick="toggleDarkMode()"><i class="fas fa-adjust"></i> Dark/Light Mode</button>
       <button class="card" onclick="scrollToSection('effects')"><i class="fas fa-location-arrow"></i> Scroll to Effects</button>
       <button class="card" onclick="downloadReport()"><i class="fas fa-download"></i> Download Report</button>
@@ -55,9 +54,9 @@
 
   <section id="dashboard">
     <h2>Live Dashboard</h2>
-    <div class="metric">CO₂: 48,500 t</div>
-    <div class="metric">Efficiency: 92%</div>
-    <div class="metric">Green Energy: 71%</div>
+    <div class="metric" id="co2">CO₂: 48,500 t</div>
+    <div class="metric" id="efficiency">Efficiency: 92%</div>
+    <div class="metric" id="green">Green Energy: 71%</div>
     <canvas id="carbonChart" height="100"></canvas>
   </section>
 
@@ -98,6 +97,7 @@
   </section>
 
   <footer>&copy; 2025 Magic Climate. All rights reserved.</footer>
+
   <script src="script.js"></script>
 </body>
 </html>
